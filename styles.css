@@ -1,0 +1,12 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.brainstorming {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    white-space: nowrap;
+    padding-bottom: 20px;
+}
